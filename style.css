@@ -1,0 +1,50 @@
+body{
+	background-image: url('http://i.imgur.com/6q7cXaP.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#board{
+   height: 11vw;
+    width: 100%;
+    margin-top: 377px;
+    /*border: black solid;*/
+}
+
+.player{
+	
+	height:100px;
+	width: 100px;
+	border-radius:  100% ;
+	animation: spin 4s infinite linear;
+}
+
+#car1{
+	border: black dotted;
+	height:40px;
+	width: 40px;
+	border-radius:  100% ;
+	animation: spin 4s infinite linear;
+
+}
+
+/*@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}*/
+
+/*#turtle{
+	height:70px;
+	width: 100px;
+}*/
+/*#piece1{
+margin-bottom: 585px;
+}*/
+
+#red{
+
+}
+img{
+	height: 136px;
+    width: 214px;
+}
